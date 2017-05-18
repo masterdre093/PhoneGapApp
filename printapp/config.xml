@@ -49,10 +49,7 @@
         <splash density="port-xhdpi" src="www/res/screen/android/drawable-port-xhdpi-screen.png" />
         <splash density="port-xxhdpi" src="www/res/screen/android/drawable-port-xxhdpi-screen.png" />
         <splash density="port-xxxhdpi" src="www/res/screen/android/drawable-port-xxxhdpi-screen.png" />
-        
-         <source-file src="platforms/android/libs/printer7003.jar" target-dir="libs/" />
-        <!--<source-file src="platforms/android/lib/libprinter7003.so" target-dir="platforms/android/lib/" />-->
-        
+        <source-file src="platforms/android/libs/printer7003.jar" target-dir="libs/" />
     </platform>
     <platform name="ios">
         <icon height="57" platform="ios" src="www/res/icon/ios/icon.png" width="57" />
@@ -119,5 +116,5 @@
         <allow-intent href="itms-apps:*" />
     </platform>
     <plugin name="cordova-plugin-datecs-printer" spec="~0.6.2" />
-    
+    <plugin name="com.bxl.service.phonegap" spec="bixolonPlugin/com.bxl.service.phonegap" />
 </widget>

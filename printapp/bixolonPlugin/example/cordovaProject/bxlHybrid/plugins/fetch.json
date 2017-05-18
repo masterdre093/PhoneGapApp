@@ -1,0 +1,18 @@
+{
+    "cordova-plugin-whitelist": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-whitelist@1"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "com.bxl.service.phonegap": {
+        "source": {
+            "type": "local",
+            "path": "/Users/SSbin/Documents/phonegap/bixolonPlugin/com.bxl.service.phonegap"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}

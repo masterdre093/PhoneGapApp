@@ -174,5 +174,13 @@
         },
         "is_top_level": true,
         "variables": {}
+    },
+    "com.bxl.service.phonegap": {
+        "source": {
+            "type": "local",
+            "path": "bixolonPlugin\\com.bxl.service.phonegap"
+        },
+        "is_top_level": true,
+        "variables": {}
     }
 }
